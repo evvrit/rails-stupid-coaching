@@ -1,0 +1,6 @@
+<form action="answer" data-turbo="false">
+<input type="text" name="question" value="<%= params[:question] %>" placeholder="say something!">
+<input type="submit" value="Ask!">
+</form>
+<h3>Coach says:</h3>
+<%= @answer %>
